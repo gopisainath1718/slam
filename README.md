@@ -8,7 +8,6 @@ This repository contains the beginnings of a robust real-time SLAM (Simultaneous
 
 Currently, the foundation of the pipeline focuses on efficiently loading and synchronizing diverse sensor streams from ROS 2 bag files.
 
-```markdown
 ## Requirements
 
 To build and run this package, you will need the following libraries and dependencies installed on your system:
@@ -21,7 +20,6 @@ To build and run this package, you will need the following libraries and depende
 Alternatively, you can install all required dependencies using the provided script:
 ```bash
 ./install_dependencies.sh
-```
 ```
 
 ### Supported Data and Datasets
