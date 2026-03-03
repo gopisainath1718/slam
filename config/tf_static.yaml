@@ -1,0 +1,19 @@
+# all translations are in meters
+# all rotations are in quaternion (qx, qy, qz, qw)
+# Convention: each entry defines T_parent_child (pose of `child` expressed in `parent`).
+
+transforms: #T_base_as_imu
+  - parent: base
+    child: as_imu
+    translation: [0.038, -0.008, 0.065]
+    quaternion: [1.0, 0.0, 0.0, 0.0]
+
+  - parent: as_imu
+    child: os_imu
+    translation: [-0.051, -0.021, -0.041]
+    quaternion: [1.0, 0.0, 0.0, 0.0]
+
+  - parent: os_imu
+    child: os_sensor
+    translation: [0.014, -0.012, -0.015]
+    quaternion: [0.0, 0.0, 0.0, 1.0]	

@@ -4,7 +4,7 @@
 #include <deque>
 #include <optional>
 
-#include "data_loader/topic_config.hpp"
+#include "data_loader/config.hpp"
 #include "data_loader/stream_buffer.hpp"
 #include "data_loader/types.hpp"
 

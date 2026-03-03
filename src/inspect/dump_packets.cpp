@@ -13,7 +13,7 @@
 #include "sensor_msgs/msg/point_field.hpp"
 
 #include "data_loader/rosbag2_reader.hpp"
-#include "data_loader/topic_config.hpp"
+#include "data_loader/config.hpp"
 #include "data_loader/packetizer.hpp"
 #include "data_loader/time.hpp"
 #include "data_loader/types.hpp"
